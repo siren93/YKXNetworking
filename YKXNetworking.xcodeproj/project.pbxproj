@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E250B201A75F09D003C54B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E250B1F1A75F09D003C54B6 /* Foundation.framework */; };
+		1E250B221A75F09D003C54B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E250B211A75F09D003C54B6 /* CoreGraphics.framework */; };
+		1E250B241A75F09D003C54B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E250B231A75F09D003C54B6 /* UIKit.framework */; };
+		1E250B2A1A75F09D003C54B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E250B281A75F09D003C54B6 /* InfoPlist.strings */; };
+		1E250B2C1A75F09D003C54B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E250B2B1A75F09D003C54B6 /* main.m */; };
+		1E250B301A75F09D003C54B6 /* YKXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E250B2F1A75F09D003C54B6 /* YKXAppDelegate.m */; };
+		1E250B321A75F09D003C54B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E250B311A75F09D003C54B6 /* Images.xcassets */; };
+		1E250B391A75F09D003C54B6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E250B381A75F09D003C54B6 /* XCTest.framework */; };
+		1E250B3A1A75F09D003C54B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E250B1F1A75F09D003C54B6 /* Foundation.framework */; };
+		1E250B3B1A75F09D003C54B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E250B231A75F09D003C54B6 /* UIKit.framework */; };
+		1E250B431A75F09D003C54B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E250B411A75F09D003C54B6 /* InfoPlist.strings */; };
+		1E250B451A75F09D003C54B6 /* YKXNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E250B441A75F09D003C54B6 /* YKXNetworkingTests.m */; };
+		1E250B781A75F2DB003C54B6 /* HTTPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E250B711A75F2DB003C54B6 /* HTTPUtils.m */; };
+		1E250B791A75F2DB003C54B6 /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E250B741A75F2DB003C54B6 /* ImageLoader.m */; };
+		1E250B7A1A75F2DB003C54B6 /* YKXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E250B761A75F2DB003C54B6 /* YKXViewController.m */; };
+		1E250B7B1A75F2DB003C54B6 /* YKXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E250B771A75F2DB003C54B6 /* YKXViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E250B3C1A75F09D003C54B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E250B141A75F09D003C54B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E250B1B1A75F09D003C54B6;
+			remoteInfo = YKXNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E250B1C1A75F09D003C54B6 /* YKXNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKXNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E250B1F1A75F09D003C54B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E250B211A75F09D003C54B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E250B231A75F09D003C54B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E250B271A75F09D003C54B6 /* YKXNetworking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YKXNetworking-Info.plist"; sourceTree = "<group>"; };
+		1E250B291A75F09D003C54B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E250B2B1A75F09D003C54B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E250B2D1A75F09D003C54B6 /* YKXNetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YKXNetworking-Prefix.pch"; sourceTree = "<group>"; };
+		1E250B2E1A75F09D003C54B6 /* YKXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKXAppDelegate.h; sourceTree = "<group>"; };
+		1E250B2F1A75F09D003C54B6 /* YKXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKXAppDelegate.m; sourceTree = "<group>"; };
+		1E250B311A75F09D003C54B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E250B371A75F09D003C54B6 /* YKXNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKXNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E250B381A75F09D003C54B6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1E250B401A75F09D003C54B6 /* YKXNetworkingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YKXNetworkingTests-Info.plist"; sourceTree = "<group>"; };
+		1E250B421A75F09D003C54B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E250B441A75F09D003C54B6 /* YKXNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKXNetworkingTests.m; sourceTree = "<group>"; };
+		1E250B6F1A75F2DB003C54B6 /* FileDownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloadDelegate.h; sourceTree = "<group>"; };
+		1E250B701A75F2DB003C54B6 /* HTTPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPUtils.h; sourceTree = "<group>"; };
+		1E250B711A75F2DB003C54B6 /* HTTPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPUtils.m; sourceTree = "<group>"; };
+		1E250B721A75F2DB003C54B6 /* HTTPUtilsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPUtilsDelegate.h; sourceTree = "<group>"; };
+		1E250B731A75F2DB003C54B6 /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
+		1E250B741A75F2DB003C54B6 /* ImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
+		1E250B751A75F2DB003C54B6 /* YKXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKXViewController.h; sourceTree = "<group>"; };
+		1E250B761A75F2DB003C54B6 /* YKXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKXViewController.m; sourceTree = "<group>"; };
+		1E250B771A75F2DB003C54B6 /* YKXViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKXViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E250B191A75F09D003C54B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E250B221A75F09D003C54B6 /* CoreGraphics.framework in Frameworks */,
+				1E250B241A75F09D003C54B6 /* UIKit.framework in Frameworks */,
+				1E250B201A75F09D003C54B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E250B341A75F09D003C54B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E250B391A75F09D003C54B6 /* XCTest.framework in Frameworks */,
+				1E250B3B1A75F09D003C54B6 /* UIKit.framework in Frameworks */,
+				1E250B3A1A75F09D003C54B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E250B131A75F09D003C54B6 = {
+			isa = PBXGroup;
+			children = (
+				1E250B251A75F09D003C54B6 /* YKXNetworking */,
+				1E250B3E1A75F09D003C54B6 /* YKXNetworkingTests */,
+				1E250B1E1A75F09D003C54B6 /* Frameworks */,
+				1E250B1D1A75F09D003C54B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E250B1D1A75F09D003C54B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E250B1C1A75F09D003C54B6 /* YKXNetworking.app */,
+				1E250B371A75F09D003C54B6 /* YKXNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E250B1E1A75F09D003C54B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E250B1F1A75F09D003C54B6 /* Foundation.framework */,
+				1E250B211A75F09D003C54B6 /* CoreGraphics.framework */,
+				1E250B231A75F09D003C54B6 /* UIKit.framework */,
+				1E250B381A75F09D003C54B6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E250B251A75F09D003C54B6 /* YKXNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1E250B6E1A75F2DB003C54B6 /* HTTPUtils */,
+				1E250B751A75F2DB003C54B6 /* YKXViewController.h */,
+				1E250B761A75F2DB003C54B6 /* YKXViewController.m */,
+				1E250B771A75F2DB003C54B6 /* YKXViewController.xib */,
+				1E250B2E1A75F09D003C54B6 /* YKXAppDelegate.h */,
+				1E250B2F1A75F09D003C54B6 /* YKXAppDelegate.m */,
+				1E250B311A75F09D003C54B6 /* Images.xcassets */,
+				1E250B261A75F09D003C54B6 /* Supporting Files */,
+			);
+			path = YKXNetworking;
+			sourceTree = "<group>";
+		};
+		1E250B261A75F09D003C54B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E250B271A75F09D003C54B6 /* YKXNetworking-Info.plist */,
+				1E250B281A75F09D003C54B6 /* InfoPlist.strings */,
+				1E250B2B1A75F09D003C54B6 /* main.m */,
+				1E250B2D1A75F09D003C54B6 /* YKXNetworking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E250B3E1A75F09D003C54B6 /* YKXNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E250B441A75F09D003C54B6 /* YKXNetworkingTests.m */,
+				1E250B3F1A75F09D003C54B6 /* Supporting Files */,
+			);
+			path = YKXNetworkingTests;
+			sourceTree = "<group>";
+		};
+		1E250B3F1A75F09D003C54B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E250B401A75F09D003C54B6 /* YKXNetworkingTests-Info.plist */,
+				1E250B411A75F09D003C54B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E250B6E1A75F2DB003C54B6 /* HTTPUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1E250B6F1A75F2DB003C54B6 /* FileDownloadDelegate.h */,
+				1E250B701A75F2DB003C54B6 /* HTTPUtils.h */,
+				1E250B711A75F2DB003C54B6 /* HTTPUtils.m */,
+				1E250B721A75F2DB003C54B6 /* HTTPUtilsDelegate.h */,
+				1E250B731A75F2DB003C54B6 /* ImageLoader.h */,
+				1E250B741A75F2DB003C54B6 /* ImageLoader.m */,
+			);
+			path = HTTPUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E250B1B1A75F09D003C54B6 /* YKXNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E250B481A75F09D003C54B6 /* Build configuration list for PBXNativeTarget "YKXNetworking" */;
+			buildPhases = (
+				1E250B181A75F09D003C54B6 /* Sources */,
+				1E250B191A75F09D003C54B6 /* Frameworks */,
+				1E250B1A1A75F09D003C54B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKXNetworking;
+			productName = YKXNetworking;
+			productReference = 1E250B1C1A75F09D003C54B6 /* YKXNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E250B361A75F09D003C54B6 /* YKXNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E250B4B1A75F09D003C54B6 /* Build configuration list for PBXNativeTarget "YKXNetworkingTests" */;
+			buildPhases = (
+				1E250B331A75F09D003C54B6 /* Sources */,
+				1E250B341A75F09D003C54B6 /* Frameworks */,
+				1E250B351A75F09D003C54B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E250B3D1A75F09D003C54B6 /* PBXTargetDependency */,
+			);
+			name = YKXNetworkingTests;
+			productName = YKXNetworkingTests;
+			productReference = 1E250B371A75F09D003C54B6 /* YKXNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E250B141A75F09D003C54B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YKX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = net.siren93;
+				TargetAttributes = {
+					1E250B361A75F09D003C54B6 = {
+						TestTargetID = 1E250B1B1A75F09D003C54B6;
+					};
+				};
+			};
+			buildConfigurationList = 1E250B171A75F09D003C54B6 /* Build configuration list for PBXProject "YKXNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E250B131A75F09D003C54B6;
+			productRefGroup = 1E250B1D1A75F09D003C54B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E250B1B1A75F09D003C54B6 /* YKXNetworking */,
+				1E250B361A75F09D003C54B6 /* YKXNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E250B1A1A75F09D003C54B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E250B2A1A75F09D003C54B6 /* InfoPlist.strings in Resources */,
+				1E250B7B1A75F2DB003C54B6 /* YKXViewController.xib in Resources */,
+				1E250B321A75F09D003C54B6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E250B351A75F09D003C54B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E250B431A75F09D003C54B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E250B181A75F09D003C54B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E250B2C1A75F09D003C54B6 /* main.m in Sources */,
+				1E250B301A75F09D003C54B6 /* YKXAppDelegate.m in Sources */,
+				1E250B781A75F2DB003C54B6 /* HTTPUtils.m in Sources */,
+				1E250B7A1A75F2DB003C54B6 /* YKXViewController.m in Sources */,
+				1E250B791A75F2DB003C54B6 /* ImageLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E250B331A75F09D003C54B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E250B451A75F09D003C54B6 /* YKXNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E250B3D1A75F09D003C54B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E250B1B1A75F09D003C54B6 /* YKXNetworking */;
+			targetProxy = 1E250B3C1A75F09D003C54B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E250B281A75F09D003C54B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E250B291A75F09D003C54B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E250B411A75F09D003C54B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E250B421A75F09D003C54B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E250B461A75F09D003C54B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E250B471A75F09D003C54B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E250B491A75F09D003C54B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKXNetworking/YKXNetworking-Prefix.pch";
+				INFOPLIST_FILE = "YKXNetworking/YKXNetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E250B4A1A75F09D003C54B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKXNetworking/YKXNetworking-Prefix.pch";
+				INFOPLIST_FILE = "YKXNetworking/YKXNetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1E250B4C1A75F09D003C54B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YKXNetworking.app/YKXNetworking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKXNetworking/YKXNetworking-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YKXNetworkingTests/YKXNetworkingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1E250B4D1A75F09D003C54B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YKXNetworking.app/YKXNetworking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKXNetworking/YKXNetworking-Prefix.pch";
+				INFOPLIST_FILE = "YKXNetworkingTests/YKXNetworkingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E250B171A75F09D003C54B6 /* Build configuration list for PBXProject "YKXNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E250B461A75F09D003C54B6 /* Debug */,
+				1E250B471A75F09D003C54B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E250B481A75F09D003C54B6 /* Build configuration list for PBXNativeTarget "YKXNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E250B491A75F09D003C54B6 /* Debug */,
+				1E250B4A1A75F09D003C54B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E250B4B1A75F09D003C54B6 /* Build configuration list for PBXNativeTarget "YKXNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E250B4C1A75F09D003C54B6 /* Debug */,
+				1E250B4D1A75F09D003C54B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E250B141A75F09D003C54B6 /* Project object */;
+}
